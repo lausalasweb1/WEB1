@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>CENFOTEC</title>
+<meta charset="utf-8">
+<link href="favicon.png" rel="icon">  
+</head>
+
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>CENFOTEC 2020</h1>
+        <h3>Laura Salas Potaskouev</h3>
+        
+    </header>
+    <!--Menu principal = Barra de navegación-->
+    <nav>
+        <h3>Información importante:</h3>
+        <ul class="desactivar">
+            <li><a href="index.html"> Inicio</a></li>
+            <li><a href="datos.html">Datos</a></li>
+            <li><a href="opinion.html">Opinión</a> </li>
+            <li><a href="favoritos.html">Favoritos</a> </li>
+            <li><a href="form1.html">Formulario</a> </li>
+        </ul>
+    </nav>
+   
+    <hr>
+
+ <header>
+        <h1>Formulario de Contacto</h1>
+ </header>
+ <hr>
+
+ <section>
+    <form method="post">
+    <fieldset>
+         <legend><h2> Información personal:</h2></legend>
+         <br>
+         <h3><label>Nombre:</label></h3>
+         <input name ="nom" type="text" maxlength="15" size="30" placeholder="Escriba su nombre completo" required autofocus/>
+
+         <br> <br>
+         <h3><label> Apellidos:</label></h3>
+         <input name="ape" type="text" maxlenght ="25" size ="30" placeholder="Escriba sus apellidos completos" required/>
+
+         <br> <br>
+         <h3><label> Email:</label></h3>
+         <input name="cor" type="email" placeholder ="Formato del email: nombre@dominio.com" required/>
+
+         <br> <br>
+         <h3><label>Elija  el lugar al que prefiere ir para despejarse:</label></h3>
+         <input type="radio" name="lugar" value ="Montaña" checked> Montaña <br> 
+         <input type="radio" name="lugar" value ="Playa" > Playa <br> 
+         <input type="radio" name="lugar" value ="Ciudad" > Ciudad <br> 
+
+        
+
+         <br> <br>
+         <h3><label> Mensaje:</label></h3>
+         <textarea name="com" rows="10" cols="50" placeholder ="Escriba su mensaje" required> </textarea>
+
+         <br><br><br>
+
+         <input name="enviar" type="submit" value="Enviar">
+         <input name="borrar" type="reset" value="Borrar">
+        </fieldset>
+    </form>
+</section>
+
+
+
+<!--pie de página web-->
+<footer>
+	<h3>Derechos Reservados CENFOTEC 2020 </h3>
+</footer>
+
+
+</body>
+</html>
