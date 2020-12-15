@@ -1,0 +1,50 @@
+/* se refieren al menu area*/
+nav{
+    width: 615px;
+    height: 30px;
+    margin: 0 auto;
+    transition: all 0.3s ease-im-out;
+}
+
+/* desactiva las viñetas de las opciones del menu*/
+ul{
+    list-style: none;
+}
+
+/*identificador que llama la estructura del menu */
+#menu{
+    position: absolute;
+    /*darle prioridad al menu sobre el encabezado*/
+    z-index: 100px;
+}
+
+/* estilos de las opciones del menu text-decoration nore quita el subrayado*/
+#menu li>a{
+    background-color: #94b4a4;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+/* estilos de las opciones del menu al estar sobre CUANDO PASA MOUSE*/
+#menu li>a:hover{
+    color: #ffffff;
+    background-color: #e4e978;
+    transition:all 0.3s ease-in-ou;
+}
+
+/*menu a forma horizontal, determina la forma horizontal que tiene el menu*/
+#menu>li{
+    float: left;
+    text-align:center
+}
+/*cuando el menu entr en la pagina web las opciones del submenu se esconden*/ 
+#menu>li>ul{
+    display:none;
+}
+/* cuando se pasa el mouse despliega en bloque  las opciones del submenu*/
+#menu>li:hover>ul {
+    display:block;
+}

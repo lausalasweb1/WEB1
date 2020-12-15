@@ -1,0 +1,55 @@
+
+label {
+    color:#898b8a;
+    margin-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+form{
+    margin: 0 auto;
+    width: 530px;
+    height: 750px;
+    font-size: 18px;
+    color:#e5c5b5;
+    border: solid 5px #94b4a4;
+    background-color: #eeeeee;
+    border-radius: 10px;
+
+}
+input:hover {
+    outline: 2px solid #e4e978;  ;
+}
+
+
+input, textarea {
+    color: #898b8a;
+    width: 400px;
+    height: 27px;
+    background: #eeeeee;;
+    border: 2px solid #94b4a4;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+
+.enviar {
+    display: block;
+    height: 50px;
+    color: #898b8a;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: #e5c5b5;
+}
+
